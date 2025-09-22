@@ -59,18 +59,18 @@ Here is the general layout for the functions. This mapping reflects my personal 
 
 <img width="1371" height="727" alt="Launchpad-mini-mk3-mapping" src="https://github.com/user-attachments/assets/47edc5ab-5b8a-4df5-8ec7-fd4491f72b16" />
 
-### The Technics to Enable Dynamic RGB Mapping
+### DIY: The Technics to Enable Dynamic RGB Mapping on your own configuration file
 Dynamic RGB mapping allows your MIDI controller's pads to display different colors based on cue point assignments in DJay Pro, creating a more intuitive and visually organized DJ experience. 
 
 Here’s how to proceed **if you want to add dynamic RGB mapping to an existing configuration file** by editing it:
 
-**1. Map Cue Points in DJay Pro**
+**1. Map Cue Points in DJay Pro:** 
 First, open DJay Pro's MIDI controller configuration panel and locate your controller's pad mappings. Assign each pad to its corresponding cue point function (Cue 1, Cue 2, etc.) and set a default color value for each pad. This establishes the basic connection between your physical controller and the software's cue system.
 
-**2. Locate and Edit Configuration File**
+**2. Locate and Edit Configuration File:** 
 Navigate to your DJay Pro configuration directory and find your controller's configuration file (typically a .plist or .xml file). Make a backup copy before editing. Open the file in a text editor to access the MIDI mapping parameters.
 
-**3. Change Color Assignment to Default**
+**3. Change Color Assignment to Default:** 
 For each cue function in the configuration file, locate the color assignment parameters and change them to use default values instead of fixed colors. This allows the dynamic color system to take control of pad illumination based on the cue point colors you've set in the software.
 ```xml
 		<dict>
@@ -91,7 +91,7 @@ For each cue function in the configuration file, locate the color assignment par
 			</dict> <!-- End of the block to be replaced -->
 		</dict>
 ```
-**Each CUE-related section should be edited**, as shown below, to replace the fixed RGB color mapping with the default RGB color (which will depend on the UserInfo section).
+Each CUE-related section should be edited, as shown below, to replace the fixed RGB color mapping with the default RGB color (which will depend on the UserInfo section).
 ```xml
 		<dict>
 			<key>keyPath</key>
@@ -106,9 +106,8 @@ For each cue function in the configuration file, locate the color assignment par
 			<dict/> <!-- Replace the RGB color mapping by this line -->
 		</dict>
 ```
-**4. Add User Info Section**
+**4. Add User Info Section:** 
 At the end of the configuration file, add the userInfo section with the RGB color mapping values:
-
 ```xml
 	<key>userInfo</key>
 	<dict>
