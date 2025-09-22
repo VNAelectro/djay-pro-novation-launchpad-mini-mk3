@@ -30,7 +30,7 @@ My modular setup is quite simple and incredibly portable.
 
 **Installing the Config File in djay Pro**
 
-1. Download the attached configuration file named: *Launchpad MK3 DynRGB.djayMidiMapping*
+1. **Download** the attached configuration file named: [Launchpad MK3 DynRGB.djayMidiMapping](https://github.com/VNAelectro/djay-pro-novation-launchpad-mini-mk3/blob/main/Launchpad%20MK3%20DynRGB.djayMidiMapping)
 2. Open your file explorer and double-click the file to open it with djay Pro.
 3. When prompted, click OK to confirm the installation of the config file.
 4. The config file is now installed, but you need to connect the Launchpad Mini MK3 controller to see it in the MIDI controller menu.
