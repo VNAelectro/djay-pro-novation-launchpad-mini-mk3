@@ -158,7 +158,7 @@ At the end of the configuration file, add the userInfo section with the RGB colo
 	</dict>
 ```
 This configuration defines the color palette that your controller will use, with separate values for active states, enabling dynamic color changes that match your cue point assignments in real-time.
-The **color code** used is tailored specifically for the Novation Launchpad to correspond with the cue colors used in DJay Pro, based on the launchpad RGB color code map:
+The **color code** used is tailored specifically for the Novation Launchpad to correspond with the cue colors used in DJay Pro, based on this **launchpad RGB color code map**:
 
 <img width="528" height="264" alt="Launchpad-mini-mk3-pad-colors" src="https://github.com/user-attachments/assets/1c0d777c-21c2-4d2e-9a5e-1465afcd720b" />
 
