@@ -57,7 +57,7 @@ Here is the general layout for the functions. This mapping reflects my personal 
 - The mapping on the right corresponds to the SHIFT functions. Press SHIFT + Pad simultaneously to access them.
 - The FX mapping must be done inside DJay Pro (FX, instant FX, main FX) according to your preference.
 
-<img width="1510" height="704" alt="Image" src="https://github.com/user-attachments/assets/61fb0e4d-27ff-48b3-ac5b-afae26a55550" />
+<img width="1371" height="727" alt="Launchpad-mini-mk3-mapping" src="https://github.com/user-attachments/assets/47edc5ab-5b8a-4df5-8ec7-fd4491f72b16" />
 
 ### The Technics to Enable Dynamic RGB Mapping
 Dynamic RGB mapping allows your MIDI controller's pads to display different colors based on cue point assignments in DJay Pro, creating a more intuitive and visually organized DJ experience. 
@@ -161,7 +161,7 @@ At the end of the configuration file, add the userInfo section with the RGB colo
 This configuration defines the color palette that your controller will use, with separate values for active states, enabling dynamic color changes that match your cue point assignments in real-time.
 The **color code** used is tailored specifically for the Novation Launchpad to correspond with the cue colors used in DJay Pro, based on the launchpad RGB color code map:
 
-<img width="1056" height="527" alt="Image" src="https://github.com/user-attachments/assets/7a462edd-984d-4e07-a994-88843637aaa8" />
+<img width="528" height="264" alt="Launchpad-mini-mk3-pad-colors" src="https://github.com/user-attachments/assets/1c0d777c-21c2-4d2e-9a5e-1465afcd720b" />
 
 I couldn't have done all this without the extensive information on DJay Pro's advanced XML functions that I found in the great [Github repo ](https://github.com/t0mekk/djay-pro-midi-documentation/blob/main/BEGINNER.md) by [t0mekk](https://github.com/t0mekk)
 
