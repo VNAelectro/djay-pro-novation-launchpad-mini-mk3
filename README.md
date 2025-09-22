@@ -24,6 +24,8 @@ My modular setup is quite simple and incredibly portable.
 * The Reloop Mixtour and Launchpad Mini MK3 are both connected to the hub.
 * An external USB-C power source keeps everything running. This setup even works with a simple power bank for ultimate mobility!
 
+![Launchpad-mini-mk3-setup-arrows](https://github.com/user-attachments/assets/7fd6736f-5bce-4221-bc55-d90ca201407d)
+
 ### Walkthrough 
 
 **Installing the Config File in djay Pro**
