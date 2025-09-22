@@ -120,7 +120,7 @@ At the end of the configuration file, add the userInfo section with the RGB colo
 		<integer>1</integer>
 		<key>padColorsActive</key>
 		<array>
-			<integer>5</integer>   <!-- Set the RGB color value for CUE index 1 -->
+			<integer>5</integer>  <!-- Set the RGB color value for CUE index 1 -->
 			<integer>84</integer> <!-- Set the RGB color value for CUE index 2 -->
 			<integer>45</integer> <!-- Set the RGB color value for CUE index 3 -->
 			<integer>13</integer> <!-- Set the RGB color value for CUE index 4 -->
