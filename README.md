@@ -91,7 +91,7 @@ For each cue function in the configuration file, locate the color assignment par
 			</dict> <!-- End of the block to be replaced -->
 		</dict>
 ```
-Should be edited to become
+**Each CUE-related section should be edited**, as shown below, to replace the fixed RGB color mapping with the default RGB color (which will depend on the UserInfo section).
 ```xml
 		<dict>
 			<key>keyPath</key>
